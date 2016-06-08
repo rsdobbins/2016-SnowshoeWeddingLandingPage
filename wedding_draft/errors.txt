@@ -1,0 +1,7 @@
+[Fri Jan 29 2016 13:37:10 GMT-0500 (EST)] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[Fri Jan 29 2016 12:58:53 GMT-0500 (EST)] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[Fri Jan 29 2016 12:58:53 GMT-0500 (EST)] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[Fri Jan 29 2016 12:58:53 GMT-0500 (EST)] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[Fri Jan 29 2016 12:58:53 GMT-0500 (EST)] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[Fri Jan 29 2016 13:37:10 GMT-0500 (EST)] layer "Whether you have in mind a day of elegance or something rustic,": Expected end of input but "," found.
+[Fri Jan 29 2016 14:29:51 GMT-0500 (EST)] layer "Whether you have in mind a day of elegance or something rustic,": Expected end of input but "," found.
