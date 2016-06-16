@@ -10,6 +10,7 @@
 <!-- JavaScript -->
 <script src="scripts/wufoo.js"></script>
 
+<script type="text/javascript" src="scripts/jquery-3.0.0.min.js"></script>
 <!--[if lt IE 10]>
 <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -25,6 +26,10 @@ img{
 }
 .venues img{
 	float:left;
+}
+.venues{
+	position:relative;
+
 }
 .pink{
 	background-image:url(pink_bg.jpg);
@@ -56,6 +61,17 @@ h3{
 }
 .copy p{
 	padding: 0px 50px;
+}
+.venues img:hover{
+	opacity: .5;
+	transition: .5s;
+	cursor: pointer;
+
+}
+#venue1, #venue2, #venue3, #venue4, #venue5, #venue6{
+	display: none;
+	transition: .5s;
+    transition-timing-function: ease-out;
 }
 </style>
 </head>
@@ -91,16 +107,23 @@ a choice of palettes - the bright buds and wild bouquets of Spring and Summer, t
 <!-- Row Four -->
 <div class="row">
 <div class="venues" style="width: 480px; height: 480px; overflow: hidden; float:left">
-<img src="backcountry_hut.jpg" width="240" height="160" alt=""/>
-<img src="ballroom.jpg" width="240" height="160" alt=""/>
-<img src="blank_location.jpg" width="240" height="160" alt=""/>
-<img src="Golf_course.jpg" width="240" height="160" alt=""/>
-<img src="mountain_lodge_lawn.jpg" width="240" height="160" alt=""/>
-<img src="st_bernard_chapel.jpg" width="240" height="160" alt=""/>
+<img id="one" src="backcountry_hut.jpg" width="240" height="160" alt="" />
+<img id="two" src="ballroom.jpg" width="240" height="160" alt=""/>
+<img id="three" src="blank_location.jpg" width="240" height="160" alt=""/>
+<img id="four" src="Golf_course.jpg" width="240" height="160" alt=""/>
+<img id="five" src="mountain_lodge_lawn.jpg" width="240" height="160" alt=""/>
+<img id="six" src="st_bernard_chapel.jpg" width="240" height="160" alt=""/>
 </div>
 <div class="green copy" style="width: 480px; height:480px; float:left"><img src="30-300.png" width="192" height="60" alt="" style="margin:30px auto 0px; display:block"/>
   <h3>A Celebration<br> Of Any Size </h3>
-  <p>Whether you have in mind a day of elegance or something rustic, you’rein the right place. With mountaintop venues and lodging of all kinds, we can accommodate 30-300 guests with ease. Yours will be a custom creation, designed to literally make your Day. This is what dreams are made of.</p>
+  <p id="copy">Whether you have in mind a day of elegance or something rustic, you’rein the right place. With mountaintop venues and lodging of all kinds, we can accommodate 30-300 guests with ease. Yours will be a custom creation, designed to literally make your Day. This is what dreams are made of.</p>
+  <p id="venue1">Whether you have in mind a day of elegance or something rustic, you’rein the right place. </p>
+  <p id="venue2"> you have in mind a day of elegance or something rustic, you’rein the right place. </p>
+  <p id="venue3">  have in mind a day of elegance or something rustic, you’rein the right place. </p>
+  <p id="venue4">   in mind a day of elegance or something rustic, you’rein the right place. </p>
+  <p id="venue5">   mind a day of elegance or something rustic, you’rein the right place. </p>
+  <p id="venue6"> a day of elegance or something rustic, you’rein the right place. </p>
+
 </div>
 <div style="clear:both;"></div>
 </div>
@@ -260,5 +283,6 @@ Aprox. Size
 <div style="clear:both;"></div>
 </div>
 </div>
+<script type="text/javascript" src="scripts/rollovers.js"></script>
 </body>
 </html>
